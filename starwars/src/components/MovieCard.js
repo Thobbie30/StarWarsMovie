@@ -7,7 +7,8 @@ const MovieCard = ({title, releaseDate, openingCrawl }) => {
         <h2 className="movie-card-title">{title}</h2>
         <p className="movie-card-release-date">Release Date: {releaseDate}</p>
         <p className="movie-card-opening-crawl">{openingCrawl}</p>
-        <a href="#" className="movie-card-more-info">More Info</a>
+        <button className='movie-card-more-info' type="button" onclick="showMoreInfo()">More info</button>
+
       </div>
     );
   };
